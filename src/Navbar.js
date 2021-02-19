@@ -36,9 +36,7 @@ function Navbar(props) {
       <AppBar position='static' color={isDarkMode ? 'default' : 'primary'}>
         <Toolbar>
           <IconButton className={classes.menuButton} color='inherit'>
-            <span role='img' aria-label='jsx-a11y/accessible-emoji'>
-              {flag}
-            </span>
+            <span>{flag}</span>
           </IconButton>
           <Typography className={classes.title} variant='h6' color='inherit'>
             App Title
